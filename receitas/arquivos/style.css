@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f0f0f0;
+    font-family:'lato',sans-serif;
+}
+
+.header {
+    background-color:#ff6a28;
+    height: 65px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.banner {
+    background-image: url(brownie.png);
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+}
+
+.footer{
+    background-color:#ff6a28;
+    height: 50px;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.card{
+    width: 500px;
+    margin: 50px auto;
+    padding: 50px;
+    background-color: white;
+    border-radius: 5px;
+    font-weight: 3000;
+}
+
+h1{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    color: #ff6a28;
+    margin-bottom: 20px;
+}
+
+li{
+    list-style-position: inside;
+    line-height: 37px;
+}
+
+ul{
+   margin-bottom: 40px;
+}
+ol{
+    li{
+        list-style-position: inside;
+        line-height: 30px;
+    }
+}
+
+.botao{
+    text-decoration: none;
+    background-color: #ff6a28;
+    color: white;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    border-radius: 30px;
+}
+
+.botao:hover{
+    background-color: #fd753b;
+}
+
+.titulo-receita{
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+link-footer{
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+}
